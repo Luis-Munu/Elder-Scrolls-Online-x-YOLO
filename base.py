@@ -20,7 +20,7 @@ root.config(bg="white")
 canvas = tk.Canvas(root, bg="white", height=h, width=w)
 canvas.pack()
 
-model_path = "modelo_yolo/best.engine"
+model_path = "best.pt"
 model = torch.hub.load("ultralytics/yolov5", "custom", path=model_path)
 model.cuda()
 model.multi_label = False
