@@ -2,7 +2,7 @@
 A YOLOv5 model for Elder Scrolls Online
 
 Trained at 4k res, detects Bal-Foyen enemies, Harvest map indicators and various resources in real time.
-The accuracy detecting resources leaves a lot to be desired due to lack of labeled dataset, labeling by hand is hard guys!
+The accuracy detecting resources leaves a lot to be desired due to the low size of the labeled dataset, labeling by hand is hard guys!
 
 Benchmarks around 15-20 fps at populated areas on a 4k monitor, keep in mind that it will be much faster on lower resolutions. Still, I recommend porting it to TensorRT to earn much better speeds, beware that there's currently a bug that forces a low input resolution when porting a YOLO model to TensortRT, you may have to tinker with input sizes.
 
