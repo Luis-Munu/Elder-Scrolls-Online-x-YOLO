@@ -1,4 +1,7 @@
 # Elder Scrolls Online x YOLO
+
+![sc1](https://github.com/Valkam-Git/Elder-Scrolls-Online-x-YOLO/assets/82890199/d806e64e-2a73-47bb-a998-bc2443a865ec)
+
 A YOLOv5 model for Elder Scrolls Online
 
 Trained at 4k res, detects Bal-Foyen enemies, Harvest map indicators and various resources in real time.
